@@ -1,9 +1,9 @@
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-TOKEN = "1932349527:AAGzJIyzGqea2kqkmgp_I9Ykl3pbrhHS7FU" #aqui el token
-hashtag = '#s3' #aqui el #
-channel = '@s3softwareyprogramacion' #aqui el canal
+TOKEN = "" #aqui el token
+hashtag = '' #aqui el hastag Ejemplo: #compartir
+channel = '' #aqui el canal
 
 
 def start(update, context):
